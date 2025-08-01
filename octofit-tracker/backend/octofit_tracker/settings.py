@@ -25,7 +25,11 @@ SECRET_KEY = "django-insecure-d3qf5+u6djs2#5cr_*1m!j8^-lcem7#&9f8l08bo=kn&+m!*52
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'orange-carnival-v664qggv94gg2w9x9-8000.app.github.dev',
+]
 
 
 INSTALLED_APPS = [

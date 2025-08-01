@@ -6,7 +6,8 @@ from .models import User, Team, Activity, Leaderboard, Workout
 
 @api_view(['GET', 'POST'])
 def api_root(request, format=None):
-    base_url = 'http://localhost:8000/'
+    # Use Codespace URL for API endpoints
+    base_url = 'https://orange-carnival-v664qggv94gg2w9x9-8000.app.github.dev/'
     return Response({
         'users': base_url + 'api/users/?format=api',
         'teams': base_url + 'api/teams/?format=api',
