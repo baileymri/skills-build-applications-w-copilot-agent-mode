@@ -1,0 +1,110 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #f0f8ff 0%, #e0e7ff 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+nav.navbar {
+  background: linear-gradient(90deg, #4682b4 0%, #5a9bd4 100%);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.navbar-brand img {
+  border-radius: 8px;
+  background: #fff;
+  padding: 2px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffe082 !important;
+  text-decoration: underline;
+}
+
+h1, .card-title {
+  color: #2b2834;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.card {
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(70,130,180,0.08);
+}
+
+.table {
+  background: #f8fafc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th {
+  background: #4682b4;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0f7fa;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #ffe082;
+}
+
+button, .btn {
+  background: linear-gradient(90deg, #4682b4 0%, #5a9bd4 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #5a9bd4 0%, #4682b4 100%);
+  color: #ffe082;
+}
+
+a, .App-link {
+  color: #4682b4;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover, .App-link:hover {
+  color: #ffe082;
+  text-decoration: underline;
+}
+
+/* Custom card for welcome */
+.welcome-card {
+  background: linear-gradient(135deg, #e0e7ff 0%, #f0f8ff 100%);
+  border: 2px solid #4682b4;
+  border-radius: 24px;
+  box-shadow: 0 6px 24px rgba(70,130,180,0.12);
+  padding: 2rem 1rem;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+/* Favicon and logo tweaks */
+link[rel="icon"] {
+  border-radius: 50%;
+}
